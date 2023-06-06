@@ -6,5 +6,6 @@ docker run -it <image name>
 Git:
 git pull <URL>
 git push origin main 
-git commit -A
+git add -A
+git commit -m "commit message"
 
