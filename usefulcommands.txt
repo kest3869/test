@@ -1,0 +1,10 @@
+Docker: 
+docker container ls -l
+docker commit <container id> <image name>
+docker run -it <image name>
+
+Git:
+git pull <URL>
+git push origin main 
+git commit -A
+
