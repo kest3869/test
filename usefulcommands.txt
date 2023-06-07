@@ -2,10 +2,13 @@ Docker:
 docker container ls -l
 docker commit <container id> <image name>
 docker run -it <image name>
+docker run -it -v /path/on/host:/path/inside/container myimage bash
+
 
 Git:
 git pull <URL>
 git push origin main 
 git add -A
 git commit -m "commit message"
+
 
